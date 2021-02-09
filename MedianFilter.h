@@ -37,6 +37,12 @@ public:
     return m_med;
   }
   
+  void reset()
+  {
+       m_idx = 0;
+       m_cnt = 0;
+       m_med = 0;
+  }
   
 private:
 
